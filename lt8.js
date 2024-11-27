@@ -4,4 +4,6 @@ function compose(functions) {
       return functions.reduceRight((acc, fn) => fn(acc), x);
     };
   }
+
   
+
